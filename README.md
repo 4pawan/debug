@@ -7,3 +7,8 @@ https://www.jondjones.com/learn-episerver-cms/episerver-developers-tutorials/epi
 https://support.optimizely.com/hc/en-us/articles/360021035391-Using-Fiddler-to-capture-Find-requests
 
 https://docs.telerik.com/fiddler/knowledge-base/quickexec
+
+https://www.c-sharpcorner.com/UploadFile/dacca2/http-message-handler-in-web-api-implement-server-side-messa/
+
+https://www.stevejgordon.co.uk/httpclientfactory-aspnetcore-outgoing-request-middleware-pipeline-delegatinghandlers
+
