@@ -12,3 +12,6 @@ https://www.c-sharpcorner.com/UploadFile/dacca2/http-message-handler-in-web-api-
 
 https://www.stevejgordon.co.uk/httpclientfactory-aspnetcore-outgoing-request-middleware-pipeline-delegatinghandlers
 
+https://github.com/david-risney/CSP-Fiddler-Extension
+
+http://www.chadsowald.com/software/fiddler-extension-request-to-code
