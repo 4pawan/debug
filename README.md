@@ -15,3 +15,11 @@ https://www.stevejgordon.co.uk/httpclientfactory-aspnetcore-outgoing-request-mid
 https://github.com/david-risney/CSP-Fiddler-Extension
 
 http://www.chadsowald.com/software/fiddler-extension-request-to-code
+
+
+  static function OnBeforeRequest(oSession: Session) {
+        
+         if (oSession.uriContains("test")) {	oSession["ui-color"] = "orange";	}
+         if (oSession.host.ToLower().Contains("test")) {	oSession["ui-color"] = "orange";	}
+
+  }
