@@ -21,5 +21,13 @@ http://www.chadsowald.com/software/fiddler-extension-request-to-code
         
          if (oSession.uriContains("test")) {	oSession["ui-color"] = "orange";	}
          if (oSession.host.ToLower().Contains("test")) {	oSession["ui-color"] = "orange";	}
-
+         if (oSession.uriContains("access_token") &&
+             oSession.host.ToLower().Contains("test123")) {	oSession["ui-color"] = "brown";	}
   }
+
+
+ static function OnBeforeResponse(oSession: Session) {
+
+        if (oSession.responseCode == 401 ||
+        oSession.responseCode ==403) {	oSession["ui-color"] = "red";	}
+    }
