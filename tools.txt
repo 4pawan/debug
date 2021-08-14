@@ -4,3 +4,5 @@ https://www.telerik.com/justassembly
 https://www.telerik.com/fiddler/fiddler-classic
 https://www.telerik.com/try/telerik-testing-framework
 https://github.com/icsharpcode/ILSpy
+https://github.com/Art-Stea1th/Enhanced-Syntax-Highlighting
+
