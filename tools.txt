@@ -1,0 +1,6 @@
+
+https://www.telerik.com/products/decompiler.aspx
+https://www.telerik.com/justassembly
+https://www.telerik.com/fiddler/fiddler-classic
+https://www.telerik.com/try/telerik-testing-framework
+https://github.com/icsharpcode/ILSpy
