@@ -16,6 +16,8 @@ https://github.com/david-risney/CSP-Fiddler-Extension
 
 http://www.chadsowald.com/software/fiddler-extension-request-to-code
 
+https://stackoverflow.com/questions/255669/how-to-enable-assembly-bind-failure-logging-fusion-in-net
+
 
   static function OnBeforeRequest(oSession: Session) {
         
