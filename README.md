@@ -8,6 +8,8 @@ https://support.optimizely.com/hc/en-us/articles/360021035391-Using-Fiddler-to-c
 
 https://docs.telerik.com/fiddler/knowledge-base/quickexec
 
+https://docs.telerik.com/fiddler/knowledge-base/fiddlerscript/customizesessionslist
+
 https://www.c-sharpcorner.com/UploadFile/dacca2/http-message-handler-in-web-api-implement-server-side-messa/
 
 https://www.stevejgordon.co.uk/httpclientfactory-aspnetcore-outgoing-request-middleware-pipeline-delegatinghandlers
@@ -25,6 +27,12 @@ https://stackoverflow.com/questions/255669/how-to-enable-assembly-bind-failure-l
          if (oSession.host.ToLower().Contains("test")) {	oSession["ui-color"] = "orange";	}
          if (oSession.uriContains("access_token") &&
              oSession.host.ToLower().Contains("test123")) {	oSession["ui-color"] = "brown";	}
+             
+         if (oSession.oRequest.headers.Exists("Cookie")) 
+           {
+              oSession["ui-color"]="red";
+              oSession["ui-customcolumn"] = oSession.oRequest["Cookie"];
+           }   
   }
 
 
@@ -32,4 +40,7 @@ https://stackoverflow.com/questions/255669/how-to-enable-assembly-bind-failure-l
 
         if (oSession.responseCode == 401 ||
         oSession.responseCode ==403) {	oSession["ui-color"] = "red";	}
+        
+        oSession["ui-customcolumn"] = oSession.oResponse["Set-Cookie"];
+        
     }
