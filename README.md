@@ -20,6 +20,7 @@ http://www.chadsowald.com/software/fiddler-extension-request-to-code
 
 https://stackoverflow.com/questions/255669/how-to-enable-assembly-bind-failure-logging-fusion-in-net
 
+https://developers.de/2018/08/30/fiddler-tls-issues/
 
   static function OnBeforeRequest(oSession: Session) {
         
