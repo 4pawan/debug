@@ -7,3 +7,5 @@ https://github.com/icsharpcode/ILSpy
 https://github.com/Art-Stea1th/Enhanced-Syntax-Highlighting
 https://executecommands.com/add-git-bash-to-windows-terminal-app-profile/
 
+
+Get-Events -LogName 'Application' -MaxEvents 2  -Level Error | Format-List Message
