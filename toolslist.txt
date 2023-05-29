@@ -1,4 +1,18 @@
 
+UserManager-Constant - pink custom
+Events- popatiColor
+ExtensionMethod- Orange custom
+Methods- MittiColor default
+Parameter-Blue default
+Class-Shadow ofBlue default
+Delegate- Green
+Enum-Magenta
+Interface- purple
+Modules - Lime
+Structure-navy
+Type Parameter-Olive
+
+
 https://github.com/veler/DevToys
 https://github.com/dnSpyEx/dnSpy
 
