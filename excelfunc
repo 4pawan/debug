@@ -1,0 +1,9 @@
+Function CheckURL(Url As String)
+Dim request As Object
+Set request = CreateObject("WinHttp.WinHttpRequest.5.1")
+With request
+    .Open "HEAD", Url
+    .Send
+    CheckURL = request.Status
+    End With
+End Function
