@@ -34,6 +34,10 @@ https://developers.de/2018/08/30/fiddler-tls-issues/
               oSession["ui-color"]="red";
               oSession["ui-customcolumn"] = oSession.oRequest["Cookie"];
            }   
+
+         if ((null !=  oSession.oRequest.headers) && oSession.oRequest.headers.ExistsAndContains("Cookie", "EPiStateMarker=true"))
+           {  oSession["ui-color"] = "yellow";  }  
+           
   }
 
 
