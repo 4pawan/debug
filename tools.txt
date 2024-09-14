@@ -9,3 +9,4 @@ https://executecommands.com/add-git-bash-to-windows-terminal-app-profile/
 
 
 Get-Events -LogName 'Application' -MaxEvents 2  -Level Error | Format-List Message
+netsh wlan show profiles name="wifiName" key=clear
